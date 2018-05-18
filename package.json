@@ -1,22 +1,23 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "name": "goshu-desktop",
+  "version": "0.0.1",
+  "description": "A clean IRC client",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/goshuirc/desktop",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "chat",
+    "irc",
+    "internet relay chat"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "DanielOaks",
+  "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron-prebuilt-compile": "^2.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
   }
 }
